@@ -1,5 +1,4 @@
 /node_modules
 .env
 
-/ui/node_modules
 /ui/.env
