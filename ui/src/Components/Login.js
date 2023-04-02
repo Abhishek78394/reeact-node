@@ -16,6 +16,7 @@ const Login = () => {
     const sumbmitHandler = async (e) => {
       e.preventDefault();
       const api = process.env.REACT_APP_API_URL;
+      console.log(api)
       await axios.post(`${api}/signin`,{user_id,password} ,{
         headers: { 'Content-Type': 'application/json' }
       })
